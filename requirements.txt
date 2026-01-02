@@ -16,10 +16,10 @@ ARDUINO LIBRARIES
 -----------------
 ESP32 Audio I2S (by schreibfaul1) https://github.com/schreibfaul1/ESP32-audioI2S
 ArduinoJson https://arduinojson.org/
-SimpleTimer
-SD (built-in with ESP32 core)
-WiFi (built-in with ESP32 core)
-WiFiClientSecure (built-in with ESP32 core)
+SimpleTimer https://github.com/kiryanenko/SimpleTimer
+SD (built-in with ESP32 core) https://www.arduino.cc/reference/en/libraries/sd/
+WiFi (built-in with ESP32 core) https://github.com/espressif/arduino-esp32
+WiFiClientSecure (built-in with ESP32 core) https://github.com/espressif/arduino-esp32
 
 EXTERNAL APIs / KEYS REQUIRED
 -----------------------------
