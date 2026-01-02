@@ -15,7 +15,7 @@ Partition Scheme: No OTA (2MB APP / 2MB SPIFFS)
 ARDUINO LIBRARIES
 -----------------
 ESP32 Audio I2S (by schreibfaul1) https://github.com/schreibfaul1/ESP32-audioI2S
-ArduinoJson
+ArduinoJson https://arduinojson.org/
 SimpleTimer
 SD (built-in with ESP32 core)
 WiFi (built-in with ESP32 core)
