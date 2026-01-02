@@ -1,0 +1,41 @@
+SETUP INSTRUCTIONS
+------------------
+
+1. Install Arduino IDE
+2. Install ESP32 Board Package by Espressif
+3. Set Board to "ESP32 Dev Module"
+4. Select Partition Scheme: No OTA (2MB APP / 2MB SPIFFS)
+
+LIBRARY INSTALLATION
+--------------------
+Install the following libraries via Library Manager:
+- ESP32 Audio I2S (schreibfaul1)
+- ArduinoJson
+- SimpleTimer
+
+HARDWARE SETUP
+--------------
+1. Connect microphone, amplifier, SD card, buttons, and LEDs as per pinout
+2. Insert formatted microSD card (FAT32)
+3. Ensure stable power supply
+
+CODE CONFIGURATION
+------------------
+1. Insert WiFi SSID and password
+2. Insert Deepgram API key
+3. Insert Google Gemini API key
+4. (Optional) Insert OpenAI API key
+
+OPERATION
+---------
+1. Power on the device
+2. Hold the Record button and speak
+3. Release the button to process audio
+4. Listen to AI-generated voice response
+5. Press Repeat button to replay last response
+
+TROUBLESHOOTING
+---------------
+- If sketch is too large, verify partition scheme
+- If no audio output, check I2S wiring
+- If STT fails, verify internet and API key
