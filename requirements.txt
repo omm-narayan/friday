@@ -1,0 +1,55 @@
+PROJECT: ESP32_AI_Voice_Assistant
+
+SOFTWARE REQUIREMENTS
+---------------------
+Arduino IDE (latest recommended)
+ESP32 Board Package by Espressif (v3.x or newer)
+
+ARDUINO IDE SETTINGS
+--------------------
+Board           : ESP32 Dev Module
+Upload Speed    : 921600
+Flash Frequency : 80 MHz
+Partition Scheme: No OTA (2MB APP / 2MB SPIFFS)
+
+ARDUINO LIBRARIES
+-----------------
+ESP32 Audio I2S (by schreibfaul1)
+ArduinoJson
+SimpleTimer
+SD (built-in with ESP32 core)
+WiFi (built-in with ESP32 core)
+WiFiClientSecure (built-in with ESP32 core)
+
+EXTERNAL APIs / KEYS REQUIRED
+-----------------------------
+WiFi Internet Connection
+Deepgram Speech-to-Text API Key
+Google Gemini API Key
+(Optional) OpenAI API Key for TTS
+
+HARDWARE REQUIREMENTS
+---------------------
+ESP32 Development Board
+INMP441 I2S Microphone
+MAX98357 I2S Audio Amplifier
+Speaker (4Ω / 8Ω)
+MicroSD Card Module
+MicroSD Card (FAT32 formatted)
+Push Button x2 (Record, Repeat)
+RGB LED
+Resistors (100kΩ, 10kΩ for battery voltage divider)
+Li-ion Battery
+Jumper Wires / PCB / Breadboard
+
+SUPPORTED AUDIO FORMAT
+----------------------
+WAV
+Sample Rate : 16 kHz
+Bit Depth   : 8-bit Mono
+
+NOTES
+-----
+- Internet connection is mandatory for STT and AI responses
+- Large partition scheme is required to avoid sketch size errors
+- API keys must be inserted directly in source code
