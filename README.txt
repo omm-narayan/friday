@@ -29,3 +29,4 @@ LLM             : Google Gemini API
 Storage         : MicroSD Card
 
 
+
