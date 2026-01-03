@@ -28,8 +28,4 @@ STT             : Deepgram API
 LLM             : Google Gemini API
 Storage         : MicroSD Card
 
-AUTHOR
-------
-Developed and customized by TechiesMS
-Based on original work by KALO Projects
 
